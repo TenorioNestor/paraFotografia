@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
+
+/* font-family: 'Big Shoulders Text', cursive; */
+
+.nav-flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    
+}
+
+.nav-flex-row li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px 15px;
+}
+
+.nav-flex-row li a {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFD700;
+    font-size: 3em;
+    
+    font-weight: 300;
+}
+
+.section-intro {
+    height: 820px;
+    background-image: url(img/fundo.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-intro h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.section-intro header {
+    display: flex;
+    flex: 4;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-to-book-wrapper {
+    flex: 1;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    background-color: #f3f3f3c0;
+    padding: 50px 30px;
+}
+
+.link-to-book {
+    color: #ffffff;
+    display: block;
+    border: 2px solid #ffffff;
+    padding: 5px 10px;
+}
+
+a.link-to-book:hover {
+    background-color: #ffffff;
+    color: #95999e;
+    text-decoration: none;
+}
+
+.about-section p,
+.about-section h3 {
+    text-align: center;
+    width: 98%;
+    margin: auto;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.0em;
+    
+}
+
+.carousel-inner {
+    height: 700px;
+}
+
+.row-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column-form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 30px 20px;
+}
+
+.btn.btn-primary {
+    font-family: 'Big Shoulders Text', cursive;
+    color: #ffffff;
+    background-color: #95999e;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+    border: 0;
+}
+
+.btn.btn-primary:hover {
+    background-color: #747474;
+}
+.opening-time,
+.contact-adress {
+    flex: 1;
+    margin: 30px 20px;
+    font-size: 1.2em;
+    
+}
+.contact-adress{
+    text-align: center;
+}
+
+
+.form-group p {
+    font-size: 1.2em;
+}
+
+.opening-time p span,
+.contact-adress p span {
+    display: block;
+}
+#producao{
+    
+    text-align: center;
+    text-decoration: none;
+    color: #747474;
+}
+#producao a{
+    font-family: 'Inspiration', cursive;
+    font-size: 15pt;
+    text-align: center;
+    text-decoration: none;
+    color: #363636;
+}
+#producao a:hover{
+    text-align: center;
+    text-decoration: none;
+    
+    color: #971e1e;
+}
+.btn, .btn-outline-secondary a{
+    text-decoration: none;
+    color: #2c2c2c;
+}
+
+.btn, .btn-outline-secondary a:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.album{
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+    background-color: #f3f3f3c0;
+    width: 100%;
+}
+#portifolio{
+    padding: 10% auto 10% auto;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.card{
+    justify-content: center;
+    display: inline-flex;
+    position: absolute;
+    align-items: center;
+    padding: 2%;
+    margin:5%;
+}
+
+.container {
+    
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.flip-card {
+    
+    position: relative;
+    align-items: center;
+    display: inline-flex;
+    background-color: transparent;
+    width: 400px;
+    height: 400px;
+    perspective: 1000px;
+    padding: 20px;
+  }
+  
+  .flip-card-inner {
+
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+  }
+  .card-text{
+    text-align: center;
+    font-family: 'Caveat', cursive;
+    font-size:20pt ;
+  }
+
+
+
+@media (min-width:577px) and (max-width: 950px) {
+    body{
+        width: 100%;
+    }
+
+    .nav-flex-row li a {
+        font-size: 1.0em;
+    }
+    .section-intro {
+        height: 500px;  
+    }
+
+    .about-section p,
+    .about-section h3 {
+        font-size: 20px;
+    }
+
+    .carousel-inner {
+        height: auto;
+    }
+
+    .row-flex {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .container{
+        position: relative;
+       flex-direction: column;
+       height: 100%;
+        width: 100%;
+        
+    }
+    .album{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        background-color: #f3f3f3c0;
+        width: 100%;
+    }   
+
+    
+}
+
+@media screen and (max-width: 576px) {
+    body { 
+    height: 100%;
+    overflow-x: hidden
+    }
+
+    header #logo{
+        height: 25%;
+    }
+    .nav-flex-row li a {
+        font-size: 1.0em;
+        color: #FFD700;
+        height: 100%;
+    }
+    .section-intro {
+        height: 200px;
+       
+    }
+
+    .about-section {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .section-intro h1 {
+        font-size: 2em;
+    }
+
+    .about-section p,
+    .about-section h3 {
+        font-size: 15px;
+    }
+
+    .carousel-inner {
+        height: auto;
+    }
+
+    .row-flex {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .row-flex h3 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .form-group p {
+        font-size: 15px;
+    }
+
+    .opening-time p span,
+    .contact-adress p span {
+        font-size: 15px;
+        text-align: center;
+    }
+    #producao{
+        text-align: center;
+        text-decoration: none;
+        color: #747474;
+    }
+    #producao a{
+        font-family: 'Inspiration', cursive;
+        text-align: center;
+        text-decoration: none;
+        color: #363636;
+    }
+    #producao a:hover{
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #971e1e;
+    }
+    .container{
+        position: relative;
+       flex-direction: column;
+       height: 100%;
+        width: 100%;
+        
+    }
+     
+      .album{
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        background-color: #f3f3f3c0;
+        width: 100%;
+    }
+   
+    
+    
+}
