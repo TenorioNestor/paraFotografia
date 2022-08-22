@@ -40,7 +40,14 @@
     justify-content: center;
     align-items: center;
 }
-
+#a_profissional{
+    height: 820px;
+    height: 100px;
+    background: linear-gradient(90deg, hsla(0, 0%, 78%, 1) 0%, hsla(0, 97%, 69%, 1) 73%, hsla(0, 100%, 74%, 1) 100%);
+}
+.column{
+    padding-left: 10px;
+}
 .section-intro h1 {
     text-align: center;
     color: #ffffff;
