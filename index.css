@@ -4,9 +4,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inspiration&display=swap');
 
 /* font-family: 'Big Shoulders Text', cursive; */
+#burger{
+    position: absolute;
+    background-color: transparent;
+    padding: 30px;
+    font-size: 50px;
+    color: #9e8600;
+    
+}
 
 .nav-flex-row {
-    display: flex;
+    display: block;
     flex-direction: row;
     justify-content: center;
     position: absolute;
@@ -16,6 +24,11 @@
     padding: 0;
     
 }
+#mySidebar{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 100%, rgba(0,212,255,1) 100%);
+    height: 40%;
+    width: 100%;
+}   
 
 .nav-flex-row li {
     text-decoration: none;
@@ -26,7 +39,7 @@
 .nav-flex-row li a {
     font-family: 'Montserrat', sans-serif;
     color: #FFD700;
-    font-size: 3em;
+    font-size: 1.5em;
     
     font-weight: 300;
 }
@@ -43,7 +56,7 @@
 #a_profissional{
     height: 820px;
     height: 100px;
-    background: linear-gradient(90deg, hsla(0, 0%, 78%, 1) 0%, hsla(0, 97%, 69%, 1) 73%, hsla(0, 100%, 74%, 1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 100%, rgba(0,212,255,1) 100%);
 }
 .column{
     padding-left: 10px;
@@ -70,10 +83,16 @@
 .about-section {
     display: flex;
     align-items: center;
-    background-color: #f3f3f3c0;
-    padding: 50px 30px;
+    background-image:url(img/fundoSite.jpg);
+    background-attachment: fixed;  
+      
 }
-
+.coisas{
+    display: flex;
+    align-items: center;
+    background-image:url(img/fundoSite.jpg);
+    background-attachment: fixed; 
+}
 .link-to-book {
     color: #ffffff;
     display: block;
@@ -176,18 +195,21 @@ a.link-to-book:hover {
     color: #ffffff;
 }
 
-.album{
+.albuns{
     justify-content: center;
     display: inline-flex;
     align-items: center;
-    background-color: #f3f3f3c0;
+    background: linear-gradient(90deg, rgba(1,0,24,1) 0%, rgba(89,4,4,1) 100%, rgba(0,212,255,1) 100%);
     width: 100%;
 }
-#portifolio{
+ #portifolio {
     padding: 10% auto 10% auto;
     justify-content: center;
     justify-items: center;
     align-items: center;
+    display: flex;
+    align-items: center;
+
 }
 .card{
     justify-content: center;
@@ -233,6 +255,13 @@ a.link-to-book:hover {
     font-family: 'Caveat', cursive;
     font-size:20pt ;
   }
+  .album{
+    justify-content: center;
+    display: inline-flex;
+    align-items: center;
+    background-color: #f3f3f3c0;
+    width: 100%;
+}
 
 
 
@@ -240,12 +269,24 @@ a.link-to-book:hover {
     body{
         width: 100%;
     }
-
+    header #logo{
+        height: 0%;
+    }
+    #burger{
+        position: absolute;
+        background-color: transparent;
+        padding: 30px;
+        font-size: 30px;
+        color: #9e8600;
+        
+    }
     .nav-flex-row li a {
         font-size: 1.0em;
     }
     .section-intro {
-        height: 500px;  
+        height: 100px;
+        background-image: none;
+        background: linear-gradient(90deg, rgba(1,0,24,1) 0%, rgba(89,4,4,1) 100%, rgba(0,212,255,1) 100%);
     }
 
     .about-section p,
@@ -269,14 +310,20 @@ a.link-to-book:hover {
         width: 100%;
         
     }
-    .album{
+    .albuns{
         justify-content: center;
         display: flex;
         flex-direction: column;
-        background-color: #f3f3f3c0;
+        background: linear-gradient(90deg, rgba(1,0,24,1) 0%, rgba(89,4,4,1) 100%, rgba(0,212,255,1) 100%);
         width: 100%;
     }   
-
+    .album{
+        justify-content: center;
+        display: inline-flex;
+        align-items: center;
+        background-color: #f3f3f3c0;
+        width: 100%;
+    }
     
 }
 
@@ -287,7 +334,15 @@ a.link-to-book:hover {
     }
 
     header #logo{
-        height: 25%;
+        height: 0%;
+    }
+    #burger{
+        position: absolute;
+        background-color: transparent;
+        padding: 30px;
+        font-size: 40px;
+        color: #9e8600;
+        
     }
     .nav-flex-row li a {
         font-size: 1.0em;
@@ -295,9 +350,11 @@ a.link-to-book:hover {
         height: 100%;
     }
     .section-intro {
-        height: 200px;
-       
+        height: 100px;
+       background-image: none;
+       background: linear-gradient(90deg, rgba(1,0,24,1) 0%, rgba(89,4,4,1) 100%, rgba(0,212,255,1) 100%);
     }
+    
 
     .about-section {
         padding: 0px;
@@ -362,14 +419,20 @@ a.link-to-book:hover {
         
     }
      
-      .album{
+      .albuns{
         justify-content: center;
         display: flex;
         flex-direction: column;
+        background: linear-gradient(90deg, rgba(1,0,24,1) 0%, rgba(89,4,4,1) 100%, rgba(0,212,255,1) 100%);
+        width: 100%;
+    }
+    .album{
+        justify-content: center;
+        display: inline-flex;
+        align-items: center;
         background-color: #f3f3f3c0;
         width: 100%;
     }
-   
     
     
 }
