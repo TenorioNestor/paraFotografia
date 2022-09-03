@@ -25,7 +25,7 @@
     
 }
 #mySidebar{
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 100%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(6,0,153,1) 0%, rgba(14,4,89,1) 100%, rgba(0,212,255,1) 100%);
     height: 40%;
     width: 100%;
 }   
@@ -56,7 +56,7 @@
 #a_profissional{
     height: 820px;
     height: 100px;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,9,1) 100%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(6,0,153,1) 0%, rgba(14,4,89,1) 100%, rgba(0,212,255,1) 100%);
 }
 .column{
     padding-left: 10px;
@@ -199,7 +199,7 @@ a.link-to-book:hover {
     justify-content: center;
     display: inline-flex;
     align-items: center;
-    background: linear-gradient(90deg, rgba(1,0,24,1) 0%, rgba(89,4,4,1) 100%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(6,0,153,1) 0%, rgba(14,4,89,1) 100%, rgba(0,212,255,1) 100%);
     width: 100%;
 }
  #portifolio {
@@ -286,7 +286,7 @@ a.link-to-book:hover {
     .section-intro {
         height: 100px;
         background-image: none;
-        background: linear-gradient(90deg, rgba(1,0,24,1) 0%, rgba(89,4,4,1) 100%, rgba(0,212,255,1) 100%);
+        background: linear-gradient(90deg, rgba(6,0,153,1) 0%, rgba(14,4,89,1) 100%, rgba(0,212,255,1) 100%);
     }
 
     .about-section p,
@@ -314,7 +314,7 @@ a.link-to-book:hover {
         justify-content: center;
         display: flex;
         flex-direction: column;
-        background: linear-gradient(90deg, rgba(1,0,24,1) 0%, rgba(89,4,4,1) 100%, rgba(0,212,255,1) 100%);
+        background: linear-gradient(90deg, rgba(6,0,153,1) 0%, rgba(14,4,89,1) 100%, rgba(0,212,255,1) 100%);
         width: 100%;
     }   
     .album{
@@ -352,7 +352,7 @@ a.link-to-book:hover {
     .section-intro {
         height: 100px;
        background-image: none;
-       background: linear-gradient(90deg, rgba(1,0,24,1) 0%, rgba(89,4,4,1) 100%, rgba(0,212,255,1) 100%);
+       background: linear-gradient(90deg, rgba(6,0,153,1) 0%, rgba(14,4,89,1) 100%, rgba(0,212,255,1) 100%);
     }
     
 
@@ -423,7 +423,7 @@ a.link-to-book:hover {
         justify-content: center;
         display: flex;
         flex-direction: column;
-        background: linear-gradient(90deg, rgba(1,0,24,1) 0%, rgba(89,4,4,1) 100%, rgba(0,212,255,1) 100%);
+        background: linear-gradient(90deg, rgba(6,0,153,1) 0%, rgba(14,4,89,1) 100%, rgba(0,212,255,1) 100%);
         width: 100%;
     }
     .album{
