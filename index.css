@@ -325,6 +325,9 @@ a.link-to-book:hover {
         background-color: #f3f3f3c0;
         width: 100%;
     }
+    #mySidebar{
+        width: 40%;
+    }   
     
 }
 
@@ -433,6 +436,9 @@ a.link-to-book:hover {
         background-color: #f3f3f3c0;
         width: 100%;
     }
+    #mySidebar{
+        width: 30%;
+    }   
     
     
 }
