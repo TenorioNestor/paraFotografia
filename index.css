@@ -8,7 +8,7 @@
     position: absolute;
     background-color: transparent;
     padding: 30px;
-    font-size: 50px;
+    font-size: 70px;
     color: #9e8600;
     
 }
@@ -26,8 +26,8 @@
 }
 #mySidebar{
     background: linear-gradient(90deg, rgba(6,0,153,1) 0%, rgba(14,4,89,1) 100%, rgba(0,212,255,1) 100%);
-    height: 40%;
-    width: 100%;
+    height: 100%;
+    width: 30%;
 }   
 
 .nav-flex-row li {
@@ -276,7 +276,7 @@ a.link-to-book:hover {
         position: absolute;
         background-color: transparent;
         padding: 30px;
-        font-size: 30px;
+        font-size: 50px;
         color: #9e8600;
         
     }
