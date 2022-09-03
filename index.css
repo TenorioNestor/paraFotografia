@@ -408,7 +408,6 @@ a.link-to-book:hover {
     #producao a:hover{
         text-align: center;
         text-decoration: none;
-        text-transform: uppercase;
         color: #971e1e;
     }
     .container{
