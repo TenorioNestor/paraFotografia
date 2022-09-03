@@ -135,7 +135,7 @@ a.link-to-book:hover {
 .btn.btn-primary {
     font-family: 'Big Shoulders Text', cursive;
     color: #ffffff;
-    background-color: #95999e;
+    background-color: #00234f;
     text-transform: uppercase;
     font-size: 16px;
     padding: 5px 10px;
@@ -143,8 +143,9 @@ a.link-to-book:hover {
     border: 0;
 }
 
-.btn.btn-primary:hover {
-    background-color: #747474;
+.btn.btn-outline-secondary:hover {
+    background-color: #160064;
+    color:white;
 }
 .opening-time,
 .contact-adress {
